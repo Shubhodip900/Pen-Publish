@@ -29,7 +29,7 @@ router.post('/signup', async (req, res)=>{
     email,
     password,
    });
-   return res.redirect("/signin");
+   return res.redirect("/");
 });
 
 router.get("/logout", (req,res)=>{
